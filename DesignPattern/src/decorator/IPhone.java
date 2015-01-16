@@ -3,10 +3,10 @@ package decorator;
 public class IPhone implements AbstractCellPhone {
 
 	public String CallNumber() {
-		return "Iphone call sombody";
+		return "Use Iphone call sombody";
 	}
 
 	public String SendMessage() {
-		return "Iphone send a message to somebody";
+		return "Use Iphone send a message to somebody";
 	}
 }
