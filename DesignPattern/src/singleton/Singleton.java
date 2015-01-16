@@ -7,4 +7,8 @@ public class Singleton {
 	private Singleton() {
 		
 	}
+	
+	public static Singleton GetInstance() {
+		return instance;
+	}
 }
