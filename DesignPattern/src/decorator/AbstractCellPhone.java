@@ -1,8 +1,8 @@
 package decorator;
 
-public abstract class AbstractCellPhone {
+public interface AbstractCellPhone {
 	
-    public abstract String CallNumber();
-    public abstract String SendMessage();
+    public String CallNumber();
+    public String SendMessage();
     
 }

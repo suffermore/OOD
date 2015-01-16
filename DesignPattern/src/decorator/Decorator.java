@@ -1,6 +1,6 @@
 package decorator;
 
-public abstract class Decorator extends AbstractCellPhone {
+public class Decorator implements AbstractCellPhone {
 	
 	AbstractCellPhone phone;
 
@@ -8,12 +8,10 @@ public abstract class Decorator extends AbstractCellPhone {
 		this.phone = phone;
 	}
 	
-	@Override
 	public String CallNumber() {
 		return this.phone.CallNumber();
 	}
 
-	@Override
 	public String SendMessage() {
 		return this.phone.SendMessage();
 	}
