@@ -8,11 +8,11 @@ public class DecoratorBluetooth extends Decorator{
 
 	public String CallNumber()
 	{
-	    return this.phone.CallNumber() + " with GPS";
+	    return this.phone.CallNumber() + " with Bluetooth";
 	}
 	
 	public String SendMessage()
 	{
-	    return this.phone.SendMessage() + " with GPS";
+	    return this.phone.SendMessage() + " with Bluetooth";
 	}
 }
