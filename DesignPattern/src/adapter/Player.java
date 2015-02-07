@@ -12,4 +12,8 @@ public abstract class Player {
 	
 	public abstract void defense();
 	
+	public void pauseEmergency() {
+		System.out.println("Emergent Pause");
+	}
+	
 }

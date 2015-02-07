@@ -11,12 +11,12 @@ public class Translater extends Player{
 
 	@Override
 	public void attack() {
-		fCentre.attack();
+		fCentre.foreignAttack();
 	}
 
 	@Override
 	public void defense() {
-		fCentre.defense();
+		fCentre.foreignDefense();
 	}
 
 }

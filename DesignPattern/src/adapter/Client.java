@@ -13,5 +13,7 @@ public class Client {
 		b.attack();
 		c.defense();
 		d.defense();
+		
+		c.pauseEmergency();
 	}
 }

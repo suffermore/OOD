@@ -12,11 +12,11 @@ public class ForeignCentre {
 		this.name = name;
 	}
 	
-	public void attack() {
+	public void foreignAttack() {
 		System.out.println("Foriegn Centre " + name + " Attack");
 	}
 
-	public void defense() {
+	public void foreignDefense() {
 		System.out.println("Foriegn Centre " + name + " Defense");
 	}
 }
